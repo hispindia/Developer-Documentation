@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HISP INDIA Developer Documentation</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="./css/navbar.css" rel="stylesheet">
+</head>
+
+<body class="fixed-sn grey-skin">
+
+    <!--Double navigation-->
+    <header>
+        <!-- Sidebar navigation -->
+        <ul id="slide-out" class="side-nav fixed sn-bg-1 custom-scrollbar">
+            <!-- Logo -->
+            <li>
+                <div class="logo-wrapper waves-light">
+                    <a href="#"><img src="./img/logo/HI_Logo.png" class="img-fluid flex-center"></a>
+                </div>
+            </li>
+            <!--/. Logo -->
+            <!--Social-->
+            <li>
+                <ul class="social">
+                    <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
+                    <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
+                    <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+                </ul>
+            </li>
+            <!--/Social-->
+            <!--Search Form-->
+            <li>
+                <form class="search-form" role="search">
+                    <div class="form-group waves-light">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+            </li>
+            <!--/.Search Form-->
+            <!-- Side navigation links -->
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>DHIS2 Setup<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Windows</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Linux</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i> Reports<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Aggregated Based</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Tracker Based</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i> Excel Import App<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Basic App</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Customized App</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>Report App<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Report App</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Mangement of Report App</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>SQL Query<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Data Fetch(Queries)</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Data Import(Queries)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>Dhis2 Defaul App<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Create New App</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Previous Apps</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>Research and Development<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">1.</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">2.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fa fa-chevron-right"></i>Tutorials<i class="fa fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">1.Language</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">2. Language</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!--/. Side navigation links -->
+            <div class="sidenav-bg mask-strong"></div>
+        </ul>
+        <!--/. Sidebar navigation -->
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i> HISP INDIA Developer Documentation</a>
+            </div>
+            <!-- Breadcrumb-->
+            <div class="breadcrumb-dn mr-auto">
+                <!-- <p>HISP INDIA Developer Documentation</p> -->
+            </div>
+        </nav>
+        <!-- /.Navbar -->
+
+
+    </header>
+    <!--/.Double navigation-->
+
+
+
+
+    <!--Main Layout-->
+    <main>
+        <div class="container-fluid text-center">
+            <h2>Welcome to HISP INDIA Developer Documentation</h2>
+            <br>
+
+
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">DHIS2 Setup</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">Reports</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">Excel Import App</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">Report App</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+            </div>
+
+            <br>
+
+            <!-- Second Row -->
+
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">SQL Query</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">DHIS2 Custom App</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">Research & Development</h4>
+                                <hr>
+                                <!--Text-->
+                                <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="d-flex flex-row-reverse">
+                                    <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                                </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <!--Card Dark-->
+                    <div class="card card-dark">
+                        <!--Card image-->
+                        <div class="view overlay hm-white-slight">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2821%29.jpg" class="img-fluid" alt="">
+                            <a>
+                                <div class="mask"></div>
+                            </a>
+                        </div>
+                        <!--/.Card image-->
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Social shares button-->
+                            <!-- <a class="activator"><i class="fa fa-share-alt white-text"></i></a> -->
+                            <!--Title-->
+                            <h5 class="card-title">Tutorials</h5>
+                            <hr>
+                            <!--Text-->
+                            <p class="card-text white-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="d-flex flex-row-reverse">
+                                <h5 class="waves-effect waves-light p-2">Read more <i class="fa fa-chevron-right"></i></h5>
+                            </a>
+                        </div>
+                        <!--/.Card content-->
+                    </div>
+                    <!--/.Card Dark-->
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </main>
+    <!--Main Layout-->
+
+
+    <!--Footer-->
+    <footer class="page-footer stylish-color-dark">
+
+        <!--Footer Links-->
+        <div class="container">
+
+            <!-- Footer links -->
+            <div class="row text-center text-md-left mt-3 pb-3">
+
+                <!--First column-->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="title mb-4 font-bold">HISP INDIA</h6>
+                    <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Second column-->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="title mb-4 font-bold">DHIS2 Refernces</h6>
+                    <p><a href="#!">Core Development</a></p>
+                    <p><a href="#!">Github Link</a></p>
+                    <p><a href="#!">Google Forms</a></p>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Third column-->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="title mb-4 font-bold">Other links</h6>
+                    <p><a href="#!">Tutorials</a></p>
+                    <p><a href="#!">DHIS2 Developer Academy</a></p>
+                    <p><a href="#!">HISP INDIA Blog</a></p>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!--Fourth column-->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="title mb-4 font-bold">Contact</h6>
+                    <p><i class="fa fa-home mr-3"></i>A17, Ground Floor, Sector-4, Noida-201301, Uttar Pradesh, India. </p>
+                    <p><i class="fa fa-envelope mr-3"></i>contact@hispindia.org</p>
+                    <p><i class="fa fa-phone mr-3"></i> 0120-6518646</p>
+                    <p><i class="fa fa-print mr-3"></i> 0120-6518647</p>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+            <!-- Footer links -->
+
+            <hr>
+
+            <div class="row py-3 d-flex align-items-center">
+
+                <!--Grid column-->
+                <div class="col-md-8 col-lg-9">
+
+                    <!--Copyright-->
+                    <p class="text-center text-md-left grey-text">© 2017 Copyright: <a href="https://www.MDBootstrap.com"><strong> hispindia.org</strong></a></p>
+                    <!--/.Copyright-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 col-lg-3 ml-lg-0">
+
+                    <!--Social buttons-->
+                    <div class="social-section text-center text-md-left">
+                        <ul>
+                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a class="btn-floating btn-sm rgba-white-slight mr-xl-4"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <!--/.Social buttons-->
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </div>
+
+    </footer>
+    <!--/.Footer-->
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="./js/navbar.js"></script>
+
+    <script>
+        // SideNav Initialization
+        $(".button-collapse").sideNav();
+    </script>
+</body>
+
+</html>
