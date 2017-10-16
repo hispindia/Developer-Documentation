@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Excel Import App</title>
+	</head>
+	<body>
+		<div class="path">
+			<h2>Application Path</h2>
+			<br>
+			<a href="https://github.com/hispindia/dhis-app-excel-import/tree/master">Basic App</a>
+		</div>
+		<div class="about">
+			<h2>About App</div>
+			<p>
+				Excel Import App is all about import the data from Excel Sheet to the DHIS instance. This is an externally developed application for internal use. We can import both tracker and aggregate data from the application.
+			</p>
+			<h3>Installation of Extrenal App</h3>
+			<p>
+				The application which doesn't exist intarnally in DHIS is called as External app. Such applications is developed according to the work requirement and externally imported into DHIS through App Management.<br>
+				Steps for installing external app are given below :
+			</p>
+				<li>Click on Search apps and search for App Management.</li>
+				<li>A new page will open then click on the right hand an orange colored browser button to upload an external application into DHIS2.</li>
+				<li>Upload your app here and your app will appear with all external apps.</li>
+			<h3>Use case for tracker data</h3>
+			<p>
+				Through this application we can import tracker data.For this we have well defined excel sheet pattern.The sheet is provied by client we just have to map the data according to the defined pattern of mapping for desired program id, tracked entity instance id, Program stage id.Excel import workes for two different sheets one is for enrollment and other one is for importing the data.Enrollment sheet will contains mapping of program id, tracked entity instance id and attribute id's within 2 rows and else contains data which should be enrolled.Sheet name would be #Import.
+			</p>
+			<p>
+				Other sheet will contains the mapping of program id, program stage id, enrollment date and data elements id for that perticular program and program stage with in first two rows and other rows will contains the consicutive data for import and sheet name is always #Import.
+			</p>
+			<p>
+				To import the data choose excel sheet into an application. first you have to enroll the event. so choose enrollment file and simple click on the import button.The status of the importing data will be shown below the application either the data is get imported or not?If the data gets imported the status will be "Successful" else it will show an error.After enrollment on the same way you have to import event's data through another sheet.Result will also be shown in the application in the same way for the first sheet.
+			</p>
+		</div>
+	</body>
+</html>
